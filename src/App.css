@@ -1,38 +1,214 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.menuComponent nav ul{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+height: 60px;
+width: 100%;
+background-color:black;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+align-content: space-around;
+font-family:'Lobster', cursive;
+font-size: 25px;
+ box-shadow: 0 8px 6px -6px gray;
+color: whitesmoke;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bookComponent img{
+width: 200px;
+height: 200px;
+border-radius: 3%;
+box-shadow: 0 8px 6px -6px black;
+color: black;
+}
+.PriceBookComponent{
+  color: black;
+  font-size: 20px;
+  font-family:'Lobster', cursive;
+  margin-top: 20px;
+}
+.priceButton{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+  align-content: center;
+  
+
+}
+a{
+text-decoration: none;
+font-family:'Krona One', sans-serif;
+font-size: 40px;
+color: whitesmoke;
+
+
+}
+.cartIcon{
+padding-right: 40px;
+  
+}
+.homeLink{
+  padding-left: 20px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* .searchComponent{
+  background-color: #f9f6f7;
+  height: 40px;
+} */
+.homeComponent{
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"); 
+  background-color: #cccccc;
+  height: 610px;
+  background-size: auto; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
 }
+.homePageTitle{
+color: aliceblue;
+font-size: 60px;
+font-family: 'Lobster', cursive;
+margin-bottom: 100px;
+  }
+.shopNowButton{
+animation: none;
+color: azure;
+font-size: 20px;
+font-family: 'Krona One', sans-serif;
+background-color: black;
+border: none;
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 12px;
+box-shadow: 0 8px 6px -6px black;
+}
+.cartComponent{
+background-image: url("https://image.freepik.com/free-vector/empty-shelf-wooden-background_100011-107.jpg"); 
+background-color: #cccccc;
+height: 600px;
+background-size: auto; 
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover; 
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+align-content: space-around;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.ShoppingCartTitle{
+color: aliceblue;
+font-size: 40px;
+font-family: 'Lobster', cursive;
+margin-top: 10px;
+margin-bottom: 205px;
+
+}
+.adminComponent{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: space-between;
+padding-top: 30px;
+background-image: url('https://images.pexels.com/photos/33085/knowledge-book-library-glasses.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+height: 550px;
+background-size: auto; 
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover; 
+font-size: 35px;
+color: black;
+font-family: 'Lobster', cursive;
+text-shadow: 2px 2px whitesmoke
+
+}
+input{
+ font-size: 20px; 
+ border-radius: 5%;
+}
+.admitButton{
+background-color: black;
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 12px;
+box-shadow: 0 8px 6px -6px black; 
+margin-top: 15px;
+font-family: 'Lobster', cursive;
+}
+.orderButton{
+background-color: green;
+border: none;
+color:whitesmoke;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+border-radius: 12px;
+box-shadow: 0 8px 6px -6px black; 
+margin-top: 15px;
+font-family: 'Lobster', cursive;
+}
+.CartButton{
+background-color: black;
+border: none;
+color: white;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 12px;
+box-shadow: 0 8px 6px -6px black; 
+margin-top: 15px;
+}
+.bookDisplay{
+/* background-image: url('https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+/* height: 600px;
+background-size: auto; 
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;  */
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch;
+align-content: center;
+margin-top: 20px;
+margin-right: 20px;
+/* padding-top: 40px; */
+
+}
+.test{
+  display:flex;
+  flex-direction: row;
 }
