@@ -41,7 +41,7 @@ let mappedCart =this.state.cart.map(book=>{
         {mappedCart}
         </div>
         <div>
-            <button  className='orderButton' onClick={()=>this.handleOrder()}>Place your Order</button>
+            <button  className='orderButton button' onClick={()=>this.handleOrder()}>Place your Order</button>
         </div>
        
 

@@ -27,20 +27,7 @@
 "book_image_height": 495,
 "amazon_product_url": "https://www.amazon.com/Where-Crawdads-Sing-Delia-Owens/dp/0735219095?tag=NYTBS-20"
 },
-{
-"isbn10": "0062834843",   
-"publisher": "Harper",
-"description": "The 20th book in the Gabriel Allon series. The art restorer and spy cuts his family’s vacation short to investigate whether Pope Paul VII was murdered.",
-"price": 80,
-"title": "THE ORDER",
-"author": "Daniel Silva",
-"contributor": "by Daniel Silva",
-"contributor_note": "",
-"book_image": "https://s1.nyt.com/du/books/images/9780062834843.jpg",
-"book_image_width": 331,
-"book_image_height": 500,
-"amazon_product_url": "https://www.amazon.com/dp/0062834843?tag=NYTBSREV-20&tag=NYTBS-20"
-},
+
 {
 "isbn10": "0316420042",
 "publisher": "Little, Brown",

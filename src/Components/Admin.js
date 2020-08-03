@@ -36,7 +36,7 @@ class Admin extends Component{
         <input placeholder='ISBN#' onChange={(event)=>this.handleISBN(event.target.value)}/>
         <h1>Price:</h1>
         <input placeholder='$' onChange={(event)=>this.handlePrice(event.target.value)}/>
-        <button className='admitButton' onClick={()=>this.handleSubmit()}>Submit</button>
+        <button className='admitButton button' onClick={()=>this.handleSubmit()}>Submit</button>
     </div>
     }
 }

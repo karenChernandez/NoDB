@@ -14,6 +14,7 @@ font-family:'Lobster', cursive;
 font-size: 25px;
  box-shadow: 0 8px 6px -6px gray;
 color: whitesmoke;
+
 }
 .bookComponent img{
 width: 200px;
@@ -23,8 +24,8 @@ box-shadow: 0 8px 6px -6px black;
 color: black;
 }
 .PriceBookComponent{
-  color: black;
-  font-size: 20px;
+  color: whitesmoke;
+  font-size: 25px;
   font-family:'Lobster', cursive;
   margin-top: 20px;
 }
@@ -53,7 +54,9 @@ padding-right: 40px;
 .homeLink{
   padding-left: 20px;
   
+  
 }
+
 
 /* .searchComponent{
   background-color: #f9f6f7;
@@ -81,7 +84,7 @@ font-size: 60px;
 font-family: 'Lobster', cursive;
 margin-bottom: 100px;
   }
-.shopNowButton{
+/* .button{
 animation: none;
 color: azure;
 font-size: 20px;
@@ -96,8 +99,30 @@ display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
 border-radius: 12px;
-box-shadow: 0 8px 6px -6px black;
+box-shadow: 0 8px 6px -6px black; */
+/* //////////////////////////// */
+.button {
+  font-family: 'Krona One', sans-serif;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  
 }
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
 .cartComponent{
 background-image: url("https://image.freepik.com/free-vector/empty-shelf-wooden-background_100011-107.jpg"); 
 background-color: #cccccc;
@@ -162,7 +187,7 @@ margin-top: 15px;
 font-family: 'Lobster', cursive;
 }
 .orderButton{
-background-color: green;
+background-color: black;
 border: none;
 color:whitesmoke;
 padding: 10px;
@@ -176,36 +201,75 @@ box-shadow: 0 8px 6px -6px black;
 margin-top: 15px;
 font-family: 'Lobster', cursive;
 }
-.CartButton{
-background-color: black;
+/* .CartButton{
+background-color: whitesmoke;
+font-family: 'Lobster', cursive;
 border: none;
-color: white;
+color: black;
 padding: 10px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 16px;
+font-size: 18px;
 margin: 4px 2px;
 border-radius: 12px;
 box-shadow: 0 8px 6px -6px black; 
 margin-top: 15px;
+} */
+.CartButton {
+  font-family: 'Lobster', cursive;
+  padding: 12px 23px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.CartButton:hover {background-color: white;
+color:black;
+}
+
+.CartButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .bookDisplay{
-/* background-image: url('https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
-/* height: 600px;
+/* background-image: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+height: 600px;
 background-size: auto; 
 background-position: center; 
 background-repeat: no-repeat;
 background-size: cover;  */
+/* background-color: sandybrown; */
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 align-items: stretch;
 align-content: center;
-margin-top: 20px;
+padding-top: 20px;
 margin-right: 20px;
 /* padding-top: 40px; */
+
+}
+.book{
+  background-image: url('https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+height: 100%;
+/* width: 100%; */
+background-size: auto; 
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover; 
+/* background-color: rgb(238, 169, 20); */
+ 
 
 }
 .test{
